@@ -52,6 +52,16 @@ The `bo_runs` folder contains:
 * The BO tuning results of 2 algorithms RF and XGB on 19 small datasets with 10 replicates (`bo_runs_cv`).
 * The tuning results of using 4 HPO optimizers (RS, TPE, BO, BORE) on 2 benchmarks (HPO-Bench and NAS-Bench-201).
 
+## Citing
+```bibtex
+@inproceedings{makarova2022automatic,
+  title={Automatic Termination for Hyperparameter Optimization},
+  author={Makarova, Anastasia and Shen, Huibin and Perrone, Valerio and Klein, Aaron and Faddoul, Jean Baptiste and Krause, Andreas and Seeger, Matthias and Archambeau, Cedric},
+  booktitle={First Conference on Automated Machine Learning (Main Track)},
+  year={2022}
+}
+```
+
 ## Security
 
 See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
